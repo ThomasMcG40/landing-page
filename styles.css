@@ -1,17 +1,37 @@
 * {border: 1px solid black}
 body {margin: 0 }
 
-header {
+header, footer {
     background-color: #1f2937;
+}
+
+header {
     font-family: Roboto;
     color: #f9faf8;
-    display: flex;
-    flex-direction: column;
+
 }
 
 .header-top {
     display: flex;
-    
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header-main {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-sect1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 button {
@@ -24,14 +44,43 @@ button {
 
 
 
+
+
 .block-2 {
-    background-color: red;
     display: flex;
+    flex-direction: column;
 }
 .boxes {
     display: flex;
 }
 
+
+
+
 .block-3 {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+.quoter {
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.signup-box {
+    background-color: #3882F6;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block4-text {
+    display: flex;
+    flex-direction: column;
 }
