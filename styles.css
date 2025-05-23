@@ -1,5 +1,10 @@
 * {border: 1px solid black}
-body {margin: 0 }
+* {font-family: "Roboto"}
+body {
+    margin: 0;
+}
+
+/* Top section */
 
 header, footer {
     background-color: #1f2937;
@@ -8,24 +13,34 @@ header, footer {
 header {
     font-family: Roboto;
     color: #f9faf8;
-
 }
 
 .header-top {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 100px;
+
 }
 
 ul {
     display: flex;
     text-decoration: none;
     list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 24px;
+    color: #f9faf8;
+    gap: 24px;
 }
 
 .header-main {
     display: flex;
     justify-content: center;
 
+}
+
+.placeholder-image {
+    background-color: gray;
 }
 
 .main-sect1 {
@@ -44,6 +59,7 @@ button {
 
 
 
+/* Second section */
 
 
 .block-2 {
@@ -52,20 +68,41 @@ button {
 }
 .boxes {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-self: center;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+    justify-self: center;
+    flex-shrink: 0;
 }
 
 
+/* Third section */
 
 
-.block-3 {
+.block-3-content {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 750px;
+    justify-self: center;
+
 }
 .quote {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
+    justify-self: center;
+    align-self: center;
+    width: 750px;
 }
 .quoter {
     font-weight: 700;
@@ -74,13 +111,18 @@ button {
 
 .signup-box {
     background-color: #3882F6;
-    margin: 40px;
+    margin: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
+
+/* Fourth section */
+
 
 .block4-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
