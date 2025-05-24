@@ -19,9 +19,11 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0 100px;
+    align-items: flex-start;
+    padding: 0;
 
 }
-
+h1, ul {margin: 5px}
 ul {
     display: flex;
     text-decoration: none;
@@ -57,7 +59,11 @@ button {
     font-weight: 700;
 }
 
-
+.main-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
 
 /* Second section */
 
@@ -65,12 +71,27 @@ button {
 .block-2 {
     display: flex;
     flex-direction: column;
+    margin: 50px;
+}
+
+.block2-header {
+    align-self: center;
+    font-size: 36px;
+    color: #1f2937;
 }
 .boxes {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.box-container {
+    display: flex;
     flex-direction: column;
+    width: 155px;
+    margin: 0;
 }
 .box {
     height: 150px;
