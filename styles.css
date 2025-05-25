@@ -1,8 +1,13 @@
-* {border: 1px solid black}
 * {font-family: "Roboto"}
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
+
+
+
+
 
 /* Top section */
 
@@ -13,6 +18,9 @@ header, footer {
 header {
     font-family: Roboto;
     color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .header-top {
@@ -38,17 +46,23 @@ ul {
 .header-main {
     display: flex;
     justify-content: center;
+    gap: 80px;
+    margin-bottom: 80px;
 
 }
 
 .placeholder-image {
     background-color: gray;
+    min-width: 500px;
+    text-align: center;
 }
 
 .main-sect1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 500px;
+
 }
 
 button {
@@ -64,6 +78,11 @@ button {
     font-size: 48px;
     font-weight: 900;
 }
+
+
+
+
+
 
 /* Second section */
 
@@ -103,6 +122,14 @@ button {
     justify-self: center;
     flex-shrink: 0;
 }
+.subtext {
+    text-align: center;
+}
+
+
+
+
+
 
 
 /* Third section */
@@ -113,9 +140,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 750px;
     justify-self: center;
-
 }
 .quote {
     font-size: 36px;
@@ -127,7 +152,7 @@ button {
 }
 .quoter {
     font-weight: 700;
-    align-self: flex-end;
+    justify-self: flex-end;
 }
 
 .signup-box {
@@ -137,13 +162,32 @@ button {
     justify-content: center;
     align-items: center;
     color: white;
+    border: 2px solid white;
+    border-radius: 8px;
 }
 
+
+
+
+
+
+
 /* Fourth section */
-
-
 .block4-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.signup-button {
+    border-color: white;
+    border-width: 3px;
+    border-radius: 8px;
+    color: white;
+}
+
+
+footer {
+    display: flex;
     justify-content: center;
 }
